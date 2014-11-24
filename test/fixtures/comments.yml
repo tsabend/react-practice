@@ -2,8 +2,8 @@
 
 one:
   author: MyString
-  body: MyString
+  text: MyText
 
 two:
   author: MyString
-  body: MyString
+  text: MyText

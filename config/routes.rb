@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
-  get '/' => 'comments#index'
-  post '/' => 'comments#create'
+
+  root 'pages/index'
+
+  resources :comments
 end
