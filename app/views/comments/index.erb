@@ -1,8 +1,8 @@
-<p>Hello World?</p>
+<p>Comments</p>
 
 <% @comments.each do |comment| %>
-	<%= comment.author %>
-	<%= comment.body %>
+	<h2><%= comment.author %></h2>
+	<p><%= comment.body %><p><br>
 <% end %>
 
 <%= form_for :comment do |f| %>
