@@ -1,0 +1,13 @@
+<p>Hello World?</p>
+
+<% @comments.each do |comment| %>
+	<%= comment.author %>
+	<%= comment.body %>
+<% end %>
+
+<%= form_for :comment do |f| %>
+	Author: <%= f.text_field :author %><br>
+	Body: <%= f.text_field :body %><br>
+	<%= f.submit %>
+<% end %>
+
